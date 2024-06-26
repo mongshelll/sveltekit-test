@@ -1,8 +1,8 @@
 <script>
+	export const prerender = true;
 	import { onMount, onDestroy } from 'svelte';
 	import { scrollState } from '/src/stores.js';
 
-	export const prerender = true;
 
 	onMount(() => {
 		const handleScroll = () => {
